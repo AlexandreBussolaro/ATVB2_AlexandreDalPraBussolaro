@@ -1,0 +1,30 @@
+#clientes .clientes-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+#clientes .cliente {
+    width: 100%;
+    border: 1.5px solid #dcdceb;
+    border-radius: 16px;
+    padding: 20px;
+    color: #31aeb3;
+}
+#clientes .cliente h5 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+#clientes .cliente p {
+    font-size: 14px;
+    font-weight: 300;
+}
+#clientes .cliente-detail {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    text-align: justify;
+    padding-top: 16px;
+}

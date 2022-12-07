@@ -1,0 +1,16 @@
+#about {
+    height: calc(100vh - 453px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: #3d3d3d;
+}
+
+img {
+    width: 260px;
+}
+

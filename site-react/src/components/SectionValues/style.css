@@ -1,0 +1,44 @@
+#empresa .empresa-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#empresa .empresa-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+#empresa .empresa-container img {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 324px;
+    border-radius: 12px;
+}
+
+#empresa .empresa-content p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#empresa .empresa-detail {
+    padding: 32px;
+}
+
+#empresa .empresa-detail .empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#empresa .empresa-detail span {
+    background-image: url('../../assets/img/bullet-values.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
